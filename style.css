@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+body{
+    font-family: "Poppins";
+}
+
+.navbar{
+    background-color: #000000;
+    color: #ffffff;
+    display: flex;
+}
+.navbar div img{
+    margin: 10px;
+
+}
+.list{
+display: flex;
+list-style:none;
+margin-top:20px;
+margin-left: 2vw;
+
+ }
+.first::after{
+    content: '   v';
+
+}
+/* .first{
+    border-left: 3px solid #ffffff;
+    height: 500px;
+
+} */
+.list-item{
+    padding: 2vh 2vw;
+}
+.button-small{
+    margin-left:15vw;
+    margin-top: 5vh;
+    background-color: #ba0cc5;
+    padding: 10px 10px;
+    border-radius: 5px;
+    color: white;
+    font-size:1em;
+    border:none;
+
+}
+.hero{
+    background-image: url("./assets/bg.png");
+    height: 90vh;
+}
+.hero-heading{
+    font-size: 4em;
+    padding-top: 20vh;
+    padding-left:15vw ;
+    padding-right:15vw;
+    text-align: center;
+    color: white;
+    font-family: "Montserrat";
+}
+.hero{
+    text-align: center;
+    color: #f5efef;
+}
+.hero-description{
+    margin-top: 2vh;
+    font-size: 1.5em;
+}
+.button-large{
+        margin-top: 40px;
+        background-color: #ba0cc5;
+        padding: 15px 50px;
+        border-radius: 10px;
+        color: white;
+        font-size:1.5em;
+        border:none;
+    }
+.logod{
+    margin-top: 15px;
+    margin-left: 20px;
+    padding-right: 2vw;
+    border-right: 2px solid white;
+}
